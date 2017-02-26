@@ -1,0 +1,10 @@
+{
+  "intents": [
+    {
+      "intent": "GetJenkinsIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

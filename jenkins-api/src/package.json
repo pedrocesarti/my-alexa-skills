@@ -1,0 +1,23 @@
+{
+  "name": "alexa-jenkins-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jenkins-api": "^0.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrocesar-ti/my-alexa-skills.git"
+  },
+  "author": "Pedro Azevedo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrocesar-ti/my-alexa-skills/issues"
+  },
+  "homepage": "https://github.com/pedrocesar-ti/my-alexa-skills#readme"
+}

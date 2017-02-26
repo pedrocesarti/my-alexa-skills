@@ -1,0 +1,2 @@
+GetJenkinsIntent to list their jobs
+GetJenkinsIntent jobs

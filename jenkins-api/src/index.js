@@ -3,7 +3,7 @@ var APP_ID = undefined;
 var AlexaSkill = require('./AlexaSkill');
 var jenkinsapi = require ('jenkins-api');
 
-var jenkins = jenkinsapi.init(process.env.AUTH_URL);
+var jenkins = jenkinsapi.init("http://" + process.env.USER + ":" + process.env.TOKEN + "@" + process.env.ADDRESS + ":" + process.env.PORT);
 
 var Fact = function () {
 	AlexaSkill.call(this, APP_ID);

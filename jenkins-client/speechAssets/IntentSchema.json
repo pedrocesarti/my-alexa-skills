@@ -1,10 +1,19 @@
 {
-  "intents": [
-    {
-      "intent": "GetJenkinsIntent"
-    },
-    {
-      "intent": "AMAZON.HelpIntent"
-    }
-  ]
+	"intents": [
+		{
+			"intent": "ListJobsJenkinsIntent"
+		},
+		{
+			"intent": "BuildJobJenkinsIntent"
+		},
+		{
+			"intent": "AMAZON.HelpIntent"
+		},
+		{
+			"intent": "AMAZON.StopIntent"
+		},
+		{
+			"intent": "AMAZON.CancelIntent"
+		}
+	]
 }

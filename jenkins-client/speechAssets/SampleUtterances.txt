@@ -1,2 +1,8 @@
-GetJenkinsIntent to list their jobs
-GetJenkinsIntent jobs
+ListJobsJenkinsIntent to list their jobs
+ListJobsJenkinsIntent to list jobs
+ListJobsJenkinsIntent list all jobs
+ListJobsJenkinsIntent jobs
+
+BuildJobJenkinsIntent to build
+BuildJobJenkinsIntent build
+BuildJobJenkinsIntent build the job

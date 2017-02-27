@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testname": "echo $npm_package_name || exit 1",
+    "wrap": "zip -r -X $npm_package_name AlexaSkill.js index.js node_modules/ || exit 1"
   },
   "repository": {
     "type": "git",

@@ -54,14 +54,13 @@ function handleListJobs(response) {
 function handleBuildJob(response){
 	var speechOutput;
 	var cardTitle;
-
 	return jenkins.job.build('test', function(err, data){
 		speechOutput = "Success starting job."
 		if (err){speechOutput = "Error starting job."}
-		cardTitle = "Return!";
+		cardTitle = "Return!"
 		response.tellWithCard(speechOutput, cardTitle, speechOutput);
-	}
-})
+	});
+}
 
 // Create the handler that responds to the Alexa Request.
 exports.handler = function (event, context) {

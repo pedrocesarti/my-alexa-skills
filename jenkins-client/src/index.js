@@ -1,9 +1,9 @@
 var APP_ID = undefined;
 
 var AlexaSkill = require('./AlexaSkill');
-var jenkinsapi = require ('jenkins-api');
+var jenkinsapi = require ('jenkins');
 
-var jenkins = jenkinsapi.init("http://" + process.env.USER + ":" + process.env.TOKEN + "@" + process.env.ADDRESS + ":" + process.env.PORT);
+var jenkins = require ('jenkins') ({baseUrl: "http://" + process.env.USER + ":" + process.env.TOKEN + "@" + process.env.ADDRESS + ":" + process.env.PORT, crumbIssuer: true});
 
 var Fact = function () {
 	AlexaSkill.call(this, APP_ID);
@@ -26,7 +26,7 @@ Fact.prototype.intentHandlers = {
 };
 
 function handleNewFactRequest(response) {
-	return jenkins.all_jobs(function(err, data){
+	return jenkins.job.list(function(err, data){
 		var jobsJ = [];
 		for (var i=0; i<data.length; i++){
 			jobsJ.push(data[i].name);

@@ -1,12 +1,8 @@
 {
-  "name": "alexa-jenkins-api",
+  "name": "alexa-jenkins",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "jenkins-api": "^0.2.8"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pedrocesar-ti/my-alexa-skills/issues"
   },
-  "homepage": "https://github.com/pedrocesar-ti/my-alexa-skills#readme"
+  "homepage": "https://github.com/pedrocesar-ti/my-alexa-skills#readme",
+  "dependencies": {
+    "jenkins": "^0.20.0"
+  }
 }

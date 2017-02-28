@@ -5,8 +5,8 @@ Each skill has it own documentation so check out.
 
 - [jenkinsCI](https://github.com/pedrocesar-ti/my-alexa-skills/tree/master/1_jenkinsCI)
 - [scrumAssessments](https://github.com/pedrocesar-ti/my-alexa-skills/tree/master/2_scrumAssessments)
-- [leticia-agrees](https://github.com/pedrocesar-ti/my-alexa-skills/tree/master/98_leticiaAgrees/)
-- [pedro-boyfriend](https://github.com/pedrocesar-ti/my-alexa-skills/tree/master/99_pedroBoyfriend/)
+- [leticiaAgrees](https://github.com/pedrocesar-ti/my-alexa-skills/tree/master/98_leticiaAgrees/)
+- [pedroBoyfriend](https://github.com/pedrocesar-ti/my-alexa-skills/tree/master/99_pedroBoyfriend/)
 
 Enjoy! :)
 
